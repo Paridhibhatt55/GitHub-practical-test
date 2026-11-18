@@ -1,0 +1,78 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #eef2f7;
+  color: #333333;
+  line-height: 1.6;
+}
+
+.hero {
+  background: linear-gradient(135deg, #1f3a93, #4a90e2);
+  color: #ffffff;
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.hero h1 {
+  margin: 0;
+  font-size: 42px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.hero .tagline {
+  margin-top: 10px;
+  font-size: 18px;
+  opacity: 0.9;
+}
+
+main {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 0 20px;
+}
+
+.card {
+  background: #ffffff;
+  border-radius: 12px;
+  padding: 25px 30px;
+  margin-bottom: 25px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.card h2 {
+  color: #1f3a93;
+  margin-top: 0;
+  border-bottom: 3px solid #4a90e2;
+  display: inline-block;
+  padding-bottom: 4px;
+}
+
+.skills {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.skills li {
+  background: #e3ecfb;
+  color: #1f3a93;
+  padding: 8px 16px;
+  border-radius: 20px;
+}
+
+.project {
+  border-left: 4px solid #4a90e2;
+  padding-left: 15px;
+}
+
+.project h3 {
+  margin: 0 0 5px 0;
+  color: #1f3a93;
+}
